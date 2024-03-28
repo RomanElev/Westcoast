@@ -31,7 +31,7 @@
       "lastName": "Petersson",
       "adress": "Stockholm",
       "email": "hwj@work.com",
-      "title": "JavaScript work",
+      "title": "Webbutveckling med HTML, CSS och JavaScript",
       "studyStructure": "On-site",
       "id": "1"
     },
@@ -40,7 +40,7 @@
       "lastName": "Petersson",
       "adress": "Fredlund",
       "email": "vikia@mwork.com",
-      "title": "Blockchain Worker",
+      "title": "Mobilapplikationsutveckling med React Native",
       "studyStructure": "Remote",
       "id": "2"
     },
@@ -49,7 +49,7 @@
       "lastName": "Svensson",
       "adress": "Gotland",
       "email": "erik@work.com",
-      "title": "React programming",
+      "title": "React.js",
       "studyStructure": "On-site",
       "id": "3"
     }

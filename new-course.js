@@ -10,7 +10,6 @@ const addNewCourseHandler = async (e) => {
   try {
     const addedCourse = await addNewCourse(info);
     console.log("Added course:", addedCourse);
-    // Добавьте код для обновления интерфейса или перенаправления пользователя после успешного добавления курса
   } catch (error) {
     console.error("Error adding course:", error);
   }
