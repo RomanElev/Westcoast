@@ -1,0 +1,57 @@
+{
+  "courses": [
+    {
+      "title": "Webbutveckling med HTML, CSS och JavaScript",
+      "number": "1.",
+      "duration": "8 veckor,",
+      "location": "Distans,",
+      "date": "2024-02-01",
+      "id": "0b46"
+    },
+    {
+      "title": "React.js - Grundläggande och Avancerade Koncept",
+      "number": "2.",
+      "duration": "10 veckor,",
+      "location": "Klassrum,",
+      "date": "2024-02-15",
+      "id": "9908"
+    },
+    {
+      "title": "Mobilapplikationsutveckling med React Native",
+      "number": "3.",
+      "duration": "12 veckor,",
+      "location": "Distans/Klassrum,",
+      "date": "2024-03-01",
+      "id": "29f2"
+    }
+  ],
+  "students": [
+    {
+      "firstName": "Roman",
+      "lastName": "Petersson",
+      "adress": "Stockholm",
+      "email": "hwj@work.com",
+      "title": "JavaScript work",
+      "studyStructure": "On-site",
+      "id": "1"
+    },
+    {
+      "firstName": "Viktoria",
+      "lastName": "Petersson",
+      "adress": "Fredlund",
+      "email": "vikia@mwork.com",
+      "title": "Blockchain Worker",
+      "studyStructure": "Remote",
+      "id": "2"
+    },
+    {
+      "firstName": "Erik",
+      "lastName": "Svensson",
+      "adress": "Gotland",
+      "email": "erik@work.com",
+      "title": "React programming",
+      "studyStructure": "On-site",
+      "id": "3"
+    }
+  ]
+}

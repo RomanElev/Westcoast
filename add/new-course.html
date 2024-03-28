@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/new-course.css" type="text/css" />
+    <title>Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Westcoast Education</h1>
+        <ul>
+          <li><a href="/main.html">Courses</a></li>
+          <li><a href="./new-client.html">Register</a></li>
+          <li><a href="./new-course.html">Add Course</a></li>
+          <li><a href="/adminpanel.html">Admin</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1 class="page-title">Add Course</h1>
+        <form id="addCourse">
+          <div class="course-control">
+            <label for="title">Course Title:</label>
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Course Title"
+            />
+          </div>
+          <div class="course-control">
+            <label for="courseId">Course ID:</label>
+            <input
+              type="text"
+              name="courseId"
+              id="courseId"
+              placeholder="Course Id"
+            />
+          </div>
+          <div class="course-control">
+            <label for="duration">Duration:</label>
+            <input
+              type="text"
+              name="duration"
+              id="duration"
+              placeholder="Duration"
+            />
+          </div>
+          <div class="course-control">
+            <label for="cost">Cost:</label>
+            <input type="text" name="cost" id="cost" placeholder="Cost" />
+          </div>
+          <br />
+          <div class="course-control">
+            <label for="studyStructure">Pick study structure:</label><br />
+            <select id="studyStructure" name="studyStructure">
+              <option value="On-site">On-site</option>
+              <option value="Remote">Remote</option>
+            </select>
+          </div>
+          <br />
+          <div class="course-control">
+            <button type="submit" class="btn" id="addCourseButton">
+              Add course
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script type="module" src="/new-course.js"></script>
+  </body>
+</html>

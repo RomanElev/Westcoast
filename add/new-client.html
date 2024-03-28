@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/new-client.css" type="text/css" />
+    <script type="module" src="/students.js" defer></script>
+    <title>Westcoast Education</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Westcoast Education</h1>
+        <ul>
+          <li><a href="/main.html">Courses</a></li>
+          <li><a href="./new-client.html">Register</a></li>
+          <li><a href="./new-course.html">Add Course</a></li>
+          <li><a href="/adminpanel.html">Admin</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h2>Log in / Create account</h2>
+        <form id="addAccount" onsubmit="loginHandler(event)">
+          <div class="login-form">
+            <label for="email"></label>
+            <input
+              type="text"
+              name="email"
+              id="login-email"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="login-form">
+            <label for="password"></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <br />
+          <button type="submit" class="btn" id="login-button">Log in</button>
+        </form>
+      </div>
+      <div>
+        <h2 class="page-title">Sign up</h2>
+        <form id="addStudent">
+          <div class="student-form">
+            <label for="firstName"></label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="student-form">
+            <label for="lastName"></label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="student-form">
+            <label for="adress"></label>
+            <input type="text" name="adress" id="adress" placeholder="Adress" />
+          </div>
+          <div class="student-form">
+            <label for="email"></label>
+            <input type="text" name="email" id="email" placeholder="E-mail" />
+          </div>
+          <br />
+          <div class="student-form">
+            <label for="title">Pick a course:</label><br />
+            <select id="title" name="title">
+              <option value="JavaScript work">
+                Webbutveckling med HTML, CSS och JavaScript
+              </option>
+              <option value="Blockchain Worker">
+                React.js - Grundläggande och Avancerade Koncept
+              </option>
+              <option value="React programming">
+                Mobilapplikationsutveckling med React Native
+              </option>
+            </select>
+          </div>
+          <br />
+          <div class="student-form">
+            <label for="studyStructure">Pick study structure</label><br />
+            <select id="studyStructure" name="studyStructure">
+              <option value="On-site">On-site</option>
+              <option value="Distance">Remote</option>
+            </select>
+          </div>
+          <br />
+          <div class="student-form">
+            <button type="submit" class="btn" id="addStudentButton">
+              Sign up
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WestCoast Education - Kurser</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <script type="module" src="./courses.js" defer></script>
+    <script type="module" src="./search.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Välkommen till WestCoast Education</h1>
+      <p>Här kan du hitta och boka våra kurser:</p>
+      <ul>
+        <li><a href="main.html">Courses</a></li>
+        <li><a href="./add/new-client.html">Register</a></li>
+        <li><a href="./add/new-course.html">Add Course</a></li>
+        <li><a href="adminpanel.html">Admin</a></li>
+      </ul>
+      <form id="search-form">
+        <div class="search-form">
+          <label for="search-bar"></label>
+          <input
+            type="text"
+            name="search-bar"
+            id="search-bar"
+            placeholder="Search course"
+          />
+        </div>
+        <div class="search-form">
+          <button type="submit" class="btn" id="searchButton">Search</button>
+        </div>
+      </form>
+    </header>
+
+    <main>
+      <section class="course-list">
+        <div id="courses" class="course-cards"></div>
+      </section>
+      <section class="student-list">
+        <div id="students"></div>
+      </section>
+    </main>
+
+    <script>
+      function redirectToAdminPage() {
+        window.location.href = "adminpanel.html";
+      }
+    </script>
+  </body>
+</html>

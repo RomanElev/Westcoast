@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hemuppgift 1</title>
+    <link rel="stylesheet" href="/css/adminpanel.css" type="text/css">
+    <script type="module" src="/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Westcoast Education</h1>
+            <ul>
+                <li><a href="main.html">Courses</a></li>
+                <li><a href="./add/new-client.html">Register</a></li>
+                <li><a href="./add/new-course.html">Add Course</a></li>
+                <li><a href="adminpanel.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="student-list">
+            <form id="search-field">
+                <div class="search-form">
+                    <label for="search-bar"></label>
+                    <input type="text" name="search-bar" id="search-bar" placeholder="Search course" />
+                </div>
+                <div class="search-form">
+                    <button type="submit" class="btn" id="searchButton">Search</button>
+                </div>
+            </form>
+            </div>
+            <div 
+                id="students" 
+                class="student-cards"> 
+            </div>
+        </section>
+    </main>
+</body>
+</html>

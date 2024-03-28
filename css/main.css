@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.course-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.course-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.course-card h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.course-card span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+header ul {
+  text-align: right;
+}
+
+header li {
+  display: inline;
+  margin-left: 10px; /* Уменьшаем отступ между кнопками */
+}
+
+/* Стилизуем кнопки */
+header li a {
+  display: inline-block;
+  padding: 8px 15px; /* Уменьшаем внутренний отступ */
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px; /* Уменьшаем размер шрифта */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+  transition: background-color 0.3s, color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+header li a:hover {
+  background-color: #45a049; /* Изменяем цвет фона при наведении */
+  color: #fff; /* Изменяем цвет текста при наведении */
+}
